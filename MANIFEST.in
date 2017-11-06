@@ -1,0 +1,16 @@
+graft src
+graft ci
+graft tests
+
+include .coveragerc
+include .cookiecutterrc
+include .editorconfig
+
+include AUTHORS.md
+include CHANGELOG.md
+include LICENSE
+include README.md
+
+include tox.ini 
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
